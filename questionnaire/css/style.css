@@ -1,0 +1,185 @@
+/********************
+*   共通
+********************/
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    font-size: 1.6em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+span{
+    color: red;
+}
+
+/********************
+*   アンケートフォーム
+********************/
+
+.err_msg{
+    font-size: 1.5em;
+    color: red;
+}
+
+.question_area{
+    width: 80%;
+    margin: 5% auto 5% auto;
+    padding: 1em;
+    background-color: rgb(221, 220, 220);
+}
+
+.question_area_title{
+    font-size: 1.8em;
+    margin-bottom: 5%;
+}
+
+.question_name_box{
+    font-size: 100%;
+}
+
+.question_age_box{
+    font-size:100%;
+    padding: 0.5em;
+}
+
+.question_sex_radio{
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: scale( 2 , 2 );
+    -moz-transform-origin: right bottom;
+    -moz-transform: scale( 2 , 2 );
+}
+
+.question_type_checkbox{
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: scale( 2 , 2 );
+    -moz-transform-origin: right bottom;
+    -moz-transform: scale( 2 , 2 );
+    margin-left: 2em;
+}
+
+.hope_area{
+    vertical-align:top;
+}
+
+.question_hope_box{
+    height: 10em;
+    width: 55%;
+    font-size: 100%;
+}
+
+.question_warning{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.form_btn_area{
+    text-align: center;
+}
+
+.form_btn{
+    width: 20%;
+    margin-top: 2%;
+    font-size: 2em;
+}
+
+.form_btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 0 3px rgb(36, 36, 36);
+}
+
+/********************
+*   回答受付表示ページ
+********************/
+
+.answer_area{
+    width: 50%;
+    margin: 20% auto 20% auto;
+    padding: 1em;
+    font-size: 3em;
+    text-align: center;
+    background-color: rgb(221, 220, 220);
+}
+
+.answer_list_link{
+    margin-top: 10%;
+}
+
+/********************
+*   回答一覧ページ
+********************/
+
+.list_area{
+    width: 70%;
+    margin: 5% auto 3% auto;
+    padding: 1em;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: rgb(221, 220, 220);
+}
+
+.list_area_title{
+    margin-bottom: 5%;
+    font-size: 2em;
+}
+
+.list_area_supplement{
+    padding: 1em;
+    display: inline-block;
+    border: thick double black;
+}
+
+.list_area_respondent{
+    margin-bottom: 5%;
+
+}
+
+.list_area_respondent:nth-child(1){
+    margin-top: 5%;
+}
+
+.list_area_respondent:last-child{
+    margin-bottom: 0;
+}
+
+.list_form_back{
+    font-size: 2em;
+    text-align: center;
+}
+
+/*******************
+*   回答詳細ページ
+********************/
+
+.detail_area{
+    width: 50%;
+    margin: 5% auto 3% auto;
+    padding: 1em;
+    font-size: 1.8em;
+    text-align: left;
+    background-color: rgb(221, 220, 220);
+}
+
+.detail_area_question{
+    margin-bottom: 3%
+}
+
+.detail_area_respondent{
+    margin-bottom: 5%;
+}
+
+.detail_list_back{
+    font-size: 2em;
+    text-align: center;
+}
